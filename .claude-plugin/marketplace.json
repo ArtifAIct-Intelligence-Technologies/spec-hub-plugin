@@ -1,0 +1,14 @@
+{
+  "name": "spec-hub",
+  "description": "Spec Hub plugin: let your AI read your team's spec, follow its rules and work through the Spec Hub MCP",
+  "owner": {
+    "name": "ArtifAIct Intelligence Technologies"
+  },
+  "plugins": [
+    {
+      "name": "spec-hub",
+      "source": "./spec-hub",
+      "description": "Work with Spec Hub and its MCP: specs, questions, boards, reviews and your organization's own rules"
+    }
+  ]
+}
