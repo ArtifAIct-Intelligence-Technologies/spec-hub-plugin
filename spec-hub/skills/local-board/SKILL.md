@@ -61,6 +61,9 @@ the card refers to changes, the ticket moves in Jira. Do not re-read every card 
    code or open question, an empty Impact line). Tell the person; do not start on a card that is not ready
    unless they say so. An assumption you have not proven goes in Note as "สมมติฐาน: ..." until you prove it on
    the real system, then the proof goes in Evidence.
+   - **The card is the memory the next session trusts.** Write only what you checked or what the person
+     decided. A guess (where a repo lives, what a folder is for, who owns a step) never goes in Impact or
+     Waiting as a fact: ask first, or label it in Note as an assumption.
 5. **A ticket from a card.** When the person asks for a Jira ticket from a card, call `jira_create_from_card`
    without `confirm` and show them the preview. If the preview lists `po_stories`, the PO already opened stories
    under that epic: when one covers the card, call again with `story=<KEY>` so it becomes a Subtask under it
