@@ -27,6 +27,9 @@ in for the other.
    - **Not there?** Stop and ask, naming the repo: where it is cloned, whether to clone it here, or whether to
      read it through Bitbucket instead (people without the repo, such as a PO, work that way). Never guess
      where a repo lives or what its code says.
+   - **Reading through Bitbucket:** `bb_search` finds code by words (main branch only; empty is not proof of
+     absence), `bb_tree` lists a folder and `bb_file` reads a file with line numbers, 400 lines at a time, on
+     the main branch or any branch, tag or commit. Cite `repo:path:line` the same way as local code.
 2. **Make sure it is current.** `git fetch`, then read what is on the team's main branch
    (`git show origin/develop:<path>`, or `origin/main` where that is the branch). A local checkout a few hours old
    has misled people before.

@@ -56,7 +56,7 @@ answer came from, name the tools you called (`search_spec`, `get_rule`, ...) and
 | The person's own cards (Local Board) | `my_cards`, then `get_card` |
 | Team boards | `team_board` |
 | A Jira ticket, the person's sprint, JQL | `jira_get_issue`, `jira_my_issues`, `jira_search` (read only) |
-| The code itself | the repo in the folder this session was opened in; skill `code` |
+| The code itself | the repo in the folder this session was opened in, or `bb_search`, `bb_tree`, `bb_file` when it is not there; skill `code` |
 
 Lists come 20 rows a page (`page: 2` for more). An answer over 20 KB is cut; follow the `url`.
 
