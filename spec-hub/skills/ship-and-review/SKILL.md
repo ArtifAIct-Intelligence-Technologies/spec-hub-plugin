@@ -1,6 +1,6 @@
 ---
 name: ship-and-review
-description: Use for the everyday loop of shipping a change and for reviewing one: opening a Jira ticket, cutting a branch, writing a commit, opening or updating a PR, posting comments, answering review, reviewing someone's PR, or deciding if a PR is ready to merge ("เปิดตั๋ว", "เปิด branch", "commit", "เปิด PR", "ตอบรีวิว", "review PR", "พร้อม merge ไหม"). Covers the steps that cannot be undone later.
+description: 'Use for the everyday loop of shipping a change and for reviewing one: opening a Jira ticket, cutting a branch, writing a commit, opening or updating a PR, posting comments, answering review, reviewing someone''s PR, or deciding if a PR is ready to merge ("เปิดตั๋ว", "เปิด branch", "commit", "เปิด PR", "ตอบรีวิว", "review PR", "พร้อม merge ไหม"). Covers the steps that cannot be undone later.'
 ---
 
 # Shipping and reviewing a change

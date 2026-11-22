@@ -1,6 +1,6 @@
 ---
 name: code
-description: Use whenever the work needs the code itself: fixing a bug, building a ticket, reviewing a change, "โค้ดอยู่ไหน", "ทำไมพัง", "แก้ตรงนี้กระทบอะไร", "service ไหนเรียก", or reading a Jira ticket (ABC-1234) before coding. Read the code from the repos in the session folder; the Spec Hub Code Map is only an optional extra.
+description: 'Use whenever the work needs the code itself: fixing a bug, building a ticket, reviewing a change, "โค้ดอยู่ไหน", "ทำไมพัง", "แก้ตรงนี้กระทบอะไร", "service ไหนเรียก", or reading a Jira ticket (ABC-1234) before coding. Read the code from the repos in the session folder; the Spec Hub Code Map is only an optional extra.'
 ---
 
 # Working on the code

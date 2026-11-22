@@ -1,6 +1,6 @@
 ---
 name: release-and-deploy
-description: Use when preparing a release round or deploying the team's services: choosing the release base branch, working out what has not shipped, cherry-picking onto a release branch, merging develop into a release branch, bumping image tags in helm, opening a helm PR, adding an env var, or checking which build is live on dev, qa, uat or prod ("เตรียม release", "cherry pick", "ขึ้น uat", "deploy prod", "PR helm", "bump tag", "เพิ่ม env", "ตัวไหน live อยู่"). Extends skill `release`; read that first.
+description: 'Use when preparing a release round or deploying the team''s services: choosing the release base branch, working out what has not shipped, cherry-picking onto a release branch, merging develop into a release branch, bumping image tags in helm, opening a helm PR, adding an env var, or checking which build is live on dev, qa, uat or prod ("เตรียม release", "cherry pick", "ขึ้น uat", "deploy prod", "PR helm", "bump tag", "เพิ่ม env", "ตัวไหน live อยู่"). Extends skill `release`; read that first.'
 ---
 
 # Release rounds and deploys

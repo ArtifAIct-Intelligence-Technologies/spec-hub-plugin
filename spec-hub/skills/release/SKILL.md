@@ -1,6 +1,6 @@
 ---
 name: release
-description: Use when preparing or checking a release or deploy of the team's services: what ships in a round, what must ship together, steps before and after deploy, ENV variables to add, rollback, or "ticket นี้ขึ้น env ไหนแล้ว". Uses Spec Hub release and ENV pages as the record.
+description: 'Use when preparing or checking a release or deploy of the team''s services: what ships in a round, what must ship together, steps before and after deploy, ENV variables to add, rollback, or "ticket นี้ขึ้น env ไหนแล้ว". Uses Spec Hub release and ENV pages as the record.'
 ---
 
 # Releasing with Spec Hub as the record

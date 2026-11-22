@@ -1,6 +1,6 @@
 ---
 name: pr-review
-description: Use whenever you review a Bitbucket pull request for a person through Spec Hub, or set up their review queue: "review PR", "ช่วยดู PR", "รีวิวคิว", "มี PR รอรีวิวไหม", a pasted Bitbucket PR link, a queue watcher waking you, or after you open your own PR (announce it). Covers getting work, what to read, what to check, how to write comments, and proposing approve, request changes or decline. Answering review on your own PR is skill `ship-and-review`.
+description: 'Use whenever you review a Bitbucket pull request for a person through Spec Hub, or set up their review queue: "review PR", "ช่วยดู PR", "รีวิวคิว", "มี PR รอรีวิวไหม", a pasted Bitbucket PR link, a queue watcher waking you, or after you open your own PR (announce it). Covers getting work, what to read, what to check, how to write comments, and proposing approve, request changes or decline. Answering review on your own PR is skill `ship-and-review`.'
 ---
 
 # Reviewing a pull request
