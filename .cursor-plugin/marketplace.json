@@ -1,0 +1,16 @@
+{
+  "name": "spec-hub",
+  "owner": {
+    "name": "ArtifAIct Intelligence Technologies"
+  },
+  "metadata": {
+    "description": "Spec Hub plugin for Cursor"
+  },
+  "plugins": [
+    {
+      "name": "spec-hub",
+      "source": "spec-hub",
+      "description": "How to work with Spec Hub (specs, questions, change requests, boards, releases, code and Jira tickets) and the Spec Hub MCP: read with your own rights, your organization's own rules from Spec Hub, and your own Local Board as the AI's memory."
+    }
+  ]
+}

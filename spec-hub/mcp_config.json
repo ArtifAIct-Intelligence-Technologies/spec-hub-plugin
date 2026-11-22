@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "spec-hub": {
+      "serverUrl": "https://spec.artifaict.team/mcp"
+    }
+  }
+}

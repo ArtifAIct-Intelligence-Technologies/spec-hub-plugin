@@ -1,0 +1,11 @@
+{
+  "name": "spec-hub",
+  "version": "1.13.0",
+  "description": "How to work with Spec Hub (specs, questions, change requests, boards, releases, code and Jira tickets) and the Spec Hub MCP: read with your own rights, your organization's own rules from Spec Hub, and your own Local Board as the AI's memory.",
+  "author": {
+    "name": "ArtifAIct Intelligence Technologies"
+  },
+  "homepage": "https://spec.artifaict.team/#/connect",
+  "repository": "https://github.com/ArtifAIct-Intelligence-Technologies/spec-hub-plugin",
+  "displayName": "Spec Hub"
+}
