@@ -31,6 +31,22 @@ diff that never changed.
 
 ## 2. Branch, commit, PR
 
+- **One ticket or branch, one worktree (PO-121).** Never switch branches in the person's main checkout; they
+  may have work in progress there. Create it under the session folder, never in `/tmp`:
+  ```bash
+  git -C <repo> fetch -q origin
+  git -C <repo> worktree add -b <branch> "<session folder>/.worktrees/<repo>-<KEY>-<desc>" origin/<base>
+  ```
+  The path is `<session folder>/.worktrees/<repo>-<KEY>-<desc>`. If the session folder is itself a git repo,
+  add `.worktrees/` to its `.git/info/exclude` (local, never committed).
+- **Clean up when the work ends** (PR merged, or the person says done), and only what you created:
+  `git worktree remove <path>` then `git worktree prune`; stop the dev servers, watchers and containers you
+  started; delete temporary files; delete the local branch only when it is pushed and merged, never a remote
+  branch. Check first, delete in a separate command, and never `rm -rf` through a symlink (remove a linked
+  `node_modules` link first). The plugin's hook lists what is still in `.worktrees` at session start and when
+  a card changes status: act on it, ask the person about anything that is not yours, and report what you
+  removed and what you kept.
+
 - Branch and commit names follow the team's rules (`team_rules` with the repo). Without a rule, use
   `<type>/<KEY>-short-desc` and `<type>: <KEY> — <description>`.
 - **One PR, one topic.** Refactors go in their own commit; no unrelated files. It keeps cherry-picks clean.
