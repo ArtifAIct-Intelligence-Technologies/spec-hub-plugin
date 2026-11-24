@@ -62,7 +62,18 @@ Title: same shape as the commit, `<type>: <KEY> — <what it does>` (the dash is
 in English, imperative, specific. Not "Fix bug" or "Cart improvements".
 Every PR has a ticket key; without one, ask for the ticket before opening the PR.
 
-Body, in this order, leaving out any part that is empty (write "ไม่มี" only for risk lines):
+**One template per PR (team rule PR-03).** Pick the structure before you write:
+
+1. Call `team_rules` for the repo. If a rule there gives a PR template for this repo or team, that template is the
+   structure: keep its headings and order, and put the facts below under them.
+2. If there is none, use the order below.
+3. A template from the person's own notes, another tool or a previous PR is not a team template. Never paste it under or
+   above this one. If the person wants their own template, it is added to the team rules first.
+
+Never send two sets of headings, a heading twice, or empty placeholders ("N/A", "-", "TBD"). `pr_open` refuses a
+description whose headings repeat.
+
+Whatever the structure, the body holds these facts, leaving out any part that is empty (write "ไม่มี" only for risk lines):
 
 1. What and why in one to three lines. The user-visible problem, then the cause.
 2. Ticket key and the spec rule codes it follows.

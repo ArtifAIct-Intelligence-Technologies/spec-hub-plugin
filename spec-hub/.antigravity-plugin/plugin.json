@@ -1,7 +1,7 @@
 {
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "spec-hub",
-  "version": "1.14.0",
+  "version": "1.14.2",
   "description": "How to work with Spec Hub (specs, questions, change requests, boards, releases, code and Jira tickets) and the Spec Hub MCP: read with your own rights, your organization's own rules from Spec Hub, and your own Local Board as the AI's memory.",
   "author": {
     "name": "ArtifAIct Intelligence Technologies"

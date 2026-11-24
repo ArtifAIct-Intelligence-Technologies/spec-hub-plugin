@@ -81,6 +81,8 @@ How to write PR titles and descriptions, review comments, replies, tickets and s
 
 - **Answering review on your own PR:** read every comment with `bb_pr_comments` (file, line, replies, resolved). Do not use
   `pr_take` or `pr_review_url` for your own PR; those put it in your review queue as a reviewer.
+- **One PR template.** Before `pr_open`, read `team_rules` for the repo: a repo or team PR template wins, otherwise the
+  `human-writing` order. Never combine it with a personal or older template.
 - **Every PR has a ticket key** in its title, `<type>: <KEY> — <what it does>`, like the commit. No key, no PR:
   ask for the ticket first.
 - **No local paths** to private notes in tickets or PRs. Quote the content instead.
