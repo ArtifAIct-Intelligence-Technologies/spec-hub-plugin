@@ -11,7 +11,7 @@ if [ "$1" = "start" ] && [ -n "${CLAUDE_PLUGIN_ROOT:-}" ]; then
   if [ -n "$mine" ] && [ -n "$latest" ] && [ "$mine" != "$latest" ] && [ "$(printf '%s\n%s\n' "$mine" "$latest" | sort -V | tail -n 1)" = "$latest" ]; then
     mp=$(printf '%s' "$CLAUDE_PLUGIN_ROOT" | sed -n 's#.*/plugins/cache/\([^/]*\)/.*#\1#p')
     case "$mp" in ""|*[!A-Za-z0-9._-]*) mp="spec-hub" ;; esac
-    echo "Spec Hub: the installed spec-hub plugin is $mine and the latest is $latest. Tell the person, in their language, and ask whether you should update it for them now. If they say yes, run: claude plugin marketplace update $mp && claude plugin update spec-hub@$mp and then ask them to start a new session. If they say no, give them that command to run later. To stop doing this by hand: /plugin, Marketplaces tab, choose $mp, turn on auto-update. If they installed it from claude.ai (Customize > Plugins), it updates by itself."
+    echo "Spec Hub: the installed spec-hub plugin is $mine and the latest is $latest. Tell the person, in their language, and ask whether you should update it for them now. If they say yes, run: claude plugin marketplace update $mp && claude plugin update spec-hub@$mp and then ask them to type /reload-plugins in this session, which loads the new version and keeps this conversation (no new session needed). If their Claude Code has no /reload-plugins, they can type /exit and run claude --continue to come back to this same conversation. If they say no, give them that command to run later. To stop doing this by hand: /plugin, Marketplaces tab, choose $mp, turn on auto-update. If they installed it from claude.ai (Customize > Plugins), it updates by itself."
   fi
 fi
 token=$(head -n 1 "$dir/feed" 2>/dev/null | tr -d '[:space:]')
